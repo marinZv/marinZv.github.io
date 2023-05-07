@@ -1,0 +1,100 @@
+.my-card-color-red {
+    background-color: #8E2321;
+    border-radius: 15px;
+}
+
+.my-card-color-grey {
+    background-color: #D7D6E6;
+    border-radius: 15px;
+}
+
+.my-card-color-grey .card-header h5,
+.my-card-color-grey .card-body p {
+  color: black;
+}
+
+.my-card-color-grey .card-header h5,
+.my-card-color-grey .card-body p:nth-child(4) {
+  font-weight: bold;
+}
+
+
+
+.my-card-color-grey .card-footer button {
+  color: white;
+}
+/**/
+
+.my-card-color-grey-bussines {
+  background-color: #D7D6E6;
+  border-radius: 15px;
+}
+
+.my-card-color-grey-bussines .card-header h5,
+.my-card-color-grey-bussines .card-body p {
+color: black;
+}
+
+.my-card-color-grey-bussines .card-header h5,
+.my-card-color-grey-bussines .card-body p:nth-child(6), p:nth-child(7) {
+font-weight: bold;
+}
+
+
+
+.my-card-color-grey-bussines .card-footer button {
+color: white;
+}
+
+/**/
+
+/**/
+.my-card-color-grey-o-nama {
+  background-color: #D7D6E6;
+  border-radius: 0%;
+}
+
+.my-card-color-grey-o-nama .card-header h5,
+.my-card-color-grey-o-nama .card-body p {
+color: black;
+}
+
+
+/**/
+
+.my-card-color-red .card-header h5,
+.my-card-color-red .card-body p {
+  color: white;
+}
+
+.my-card-color-red .card-header h5,
+.my-card-color-red .card-body p:nth-child(4) {
+  font-weight: bold;
+}
+
+.my-card-color-red .card-footer button {
+  color: black;
+}
+
+.my-card-color-grey .card-header h5 {
+    font-weight: 600;
+  }
+  
+.my-card-color-red .card-header h5 {
+    font-weight: 700;
+}
+
+.card-footer .btn {
+    border-radius: 20px; 
+    width: 120px;
+}
+
+.btn-primary{
+    background-color: #8E2321;
+    color: white;
+}
+
+.btn-secondary{
+    background-color: #D7D6E6;
+    color: white;
+}

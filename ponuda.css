@@ -1,0 +1,94 @@
+.logo_slika {
+    height: 100%;
+    max-height: 130px; /* Ovo možete prilagoditi veličini dugmadi u navbaru */
+    object-fit: contain;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    color: white;
+    font-weight: 900;
+}
+
+.hero-sa-slikom{
+    background: url("img/tech.png") no-repeat center;
+    background-size: cover;
+}
+  
+.crveni-hero{
+    background-color:brown;
+}
+
+
+.card-header,
+.card-footer {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.my-hr {
+    border-top: 1px solid rgb(245, 167, 167);
+    width: 100%;
+    margin: 0;
+}
+
+
+.ponuda .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+  
+.ponuda .col-md-4,
+.ponuda .col-sm-4 {
+    border: none;
+    background-color: #666667;
+    padding: 10px;
+    padding: 5px;
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    color: #ffff;
+}
+
+  
+.ponuda .col-md-4:last-child,
+.ponuda .col-sm-4:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 35px;
+    padding: 5px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffff;
+}
+
+.input-group {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.ponuda p {
+    text-align: center;
+    margin: 5px auto;
+  }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
